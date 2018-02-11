@@ -1,0 +1,74 @@
+.card{
+	width: 350px;
+    border: 3px solid #ffcc00;
+    background-color: black;
+    color: white;
+	/*I tried to resmeble the National Geographics theme*/
+}
+
+.name{
+	 margin:10%;
+	 border: 3px #fff;
+}
+
+.image{
+	 border: 3px #000;
+	/*	 does this black border needed?*/
+}
+
+.imagesize{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #fff;
+}
+
+.information{
+	 margin:25px;
+	 border: 2px dotted #fff;
+
+}
+
+.interesting{
+	 margin: 5%;
+	 font-style: italic;
+	 margin-bottom: 10%;
+	/*	 tried to spacing by margin-bottom, is it correct?*/
+	/*border needed?*/
+	
+}
+
+.list{
+	 margin: 5%;
+	 margin-bottom: 10%;
+	 /*border needed?*/ 
+}
+
+.nobullet {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.description{
+	margin: 5%;
+	margin-bottom: 10%;
+	/*border needed?*/
+}
+
+body{
+	align-content: center;
+	font-family: "Pragmatica-web", "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+	font-size: 14px;
+}
+
+
+h1{
+	text-align: center;
+}
+
+span{
+	font-weight: bold;
+	color:#ffcc00;
+}
